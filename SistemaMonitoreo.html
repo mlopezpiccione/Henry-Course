@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="satoshi.css"/>
+        <link rel="stylesheet" href="./reset.css"/>
+        <link rel="stylesheet" href="SistemaMonitoreo.css"/>
+        <title>Monitoreo de Actividad</title>
+    </head>
+    <body>
+     <header class="header">
+        <div class="logo">
+          <img src="./Henry-logo.png" alt="Logo Header">
+        </div>
+        <div>
+         <nav class="nav">
+           <a href="LandingPI.html" class="nav-btn">Home</a>
+           <a href="GeneradorDeContraseñas.html" class="nav-btn">Generar contraseña</a>
+           <a href="CajaFuerte.html" class="nav-btn">Caja fuerte</a>
+           <a href="SistemaMonitoreo.html" class="nav-btn">Monitoreo de actividad</a>
+           <a href="#" class="nav-btn">Gestión de usuarios</a>
+         </nav>
+        </div>
+     </header>
+<main>
+
+    <section class="titles">
+        <h1 class="title">Asistente De Seguridad</h1>
+        <p class="subtitle">SISTEMA DE MONITOREO DE ACTIVIDAD SOSPECHOSA</p>
+    </section>
+
+    <section class="card">
+
+        <div class="row">
+            <label>Descripción</label>
+            <input type="text" id="descripcionInput">
+
+            <label>Nivel de riesgo</label>
+            <input type="text" id="riesgoInput">
+
+            <button type="button" id="agregarBtn">AGREGAR ACTIVIDAD</button>
+        </div>
+
+        <div class="row">
+            <label>Eliminar una actividad sospechosa</label>
+            <input type="text" id="eliminarInput">
+            <button type="button" id="eliminarBtn">ELIMINAR ACTIVIDAD</button>
+        </div>
+
+        <div class="row">
+            <label>Filtra actividades por nivel de riesgo</label>
+            <input type="text" id="filtrarInput">
+            <button type="button" id="filtrarBtn">MOSTRAR ACTIVIDADES</button>
+        </div>
+
+        <div class="row">
+            <label>Reporte de actividades</label>
+            <input type="text" disabled>
+            <button type="button" id="reporteBtn">GENERAR REPORTE</button>
+        </div>
+
+        <div class="results" id="resultados"></div>
+    </section>
+
+</main>
+<script src="sistemaMonitoreo.js"></script>
+</body>
+</html>

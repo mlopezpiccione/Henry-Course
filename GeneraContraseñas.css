@@ -1,0 +1,121 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.10rem 3rem;
+    background-color: #f1f1f1;
+}
+
+.logo {
+    width: 13em;
+    height: 6em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-left: 15rem;
+
+}
+
+.nav-btn {
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #222;    
+    text-decoration: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.05rem;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.card {
+    width: 70rem;
+    padding: 3rem 4rem;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 0.3rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.checkbox-group input {
+    width: 18px;
+    height: 18px;
+}
+
+.btn {
+    font-family: 'Satoshi-Bold', sans-serif;
+    margin-top: 1rem;
+    margin-left: 0.60rem;
+    padding: 1.2rem;
+    background-color: #1f1f1f;
+    color: white;
+    width: 12rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+main {
+    background-color: #FAFAFA;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Satoshi-Black', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+.subtitle {
+    font-family: "Satoshi-Medium", sans-serif;
+    margin-bottom: 2rem;
+    border-radius: 6rem; 
+    background-color: #FFFF00;
+    width: fit-content;
+    padding: 1.25rem;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+label {
+    font-family: "Satoshi-Medium", sans-serif;
+    color: #676767;
+}
